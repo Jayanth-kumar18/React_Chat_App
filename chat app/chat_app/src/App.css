@@ -1,0 +1,101 @@
+/* chat.css */
+body{
+  background-color: rgb(39, 41, 44);
+  height: 100vh;
+  background-size: cover;
+
+}
+.heading{
+  color: white;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.message-list {
+  margin-bottom: 20px;
+  overflow-y: auto;
+  max-height: calc(100vh - 150px);
+ 
+}
+
+.message {
+  background-color: #71c1c2;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 0px 10px 10px 10px;
+  margin-left: 5px;
+  height: 20px;
+  margin-top:5px;
+}
+
+.message-username {
+  font-weight: bold;
+
+}
+
+.message-text {
+  margin-left: 5px;
+
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-left: 150px;
+  
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin: 20px;
+  margin-left: 20px;
+
+}
+
+.input-container button {
+  padding: 10px 20px ;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 200px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+.badge{
+  height: 35px;
+  width: 40px;
+  margin: 10px;
+  background-color: #45a049;
+  margin-top: 10px;
+  border-radius: 23px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 5px;
+
+}
+.pillow{
+  display: flex;
+  flex-direction: row;
+}
